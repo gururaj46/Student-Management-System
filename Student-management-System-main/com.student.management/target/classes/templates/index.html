@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+	<h2>Student Management System</h2>
+	<a href="/openAddStudentPage"><button>ADD Student</button></a> <br><br>
+	<p th:if="${message}" th:text="${message}"></p>
+	<a href="/openUpdateStudentPage"><button>UPDATE Student</button></a> <br><br>
+	<a href="/openDeleteStudentPage"><button>DELETE Student</button></a> <br><br>
+	<a href="/openSearchStudentPage"><button>SEARCH Student</button></a> <br><br>
+	<a href="/fetchAllStudents"><button>GET ALL Student</button></a> <br><br>
+	<a href="/deleteAllStudents"><button>DELETE ALL Student</button></a>
+</body>
+</html>
